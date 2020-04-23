@@ -1,0 +1,54 @@
+/* Our CSS Document */
+
+body {
+    background-color: lightblue;
+  }
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.spiderImg {
+    height: 50px;
+    width: 50px;
+}
+
+#memeContainer {
+    position: relative;
+}
+
+#spiderMeme {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#memeText {
+    left: 50%;
+    border-style: dotted;
+    border-width: thin;
+    text-shadow: 5px 5px 5px purple;
+    position:absolute;
+    text-align:center;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#floated {
+    float: right;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+#smallImg {
+    width: 150px;
+}
